@@ -58,17 +58,46 @@ a {
   color: #000000;
 }
 
+main{
+  display: flex;
+}
+
+
 .containerHistoria {
   border: solid red;
   width: 40%;
-  height: 60vh;
+  height: 70vh;
   display: flex;
-  flex-direction: row; //Linha, é o comportamento padrão.
-  flex-direction: row-reverse; // Linha reversa
-  flex-direction: column-reverse; //coluna reversa
   flex-direction: column; //Coluna
-
-  //Revisão para a próxima aula
-  align-items: center;
+  // flex-direction: row; //Linha, é o comportamento padrão.
+  //flex-direction: row-reverse; // Linha reversa
+  //flex-direction: column-reverse; //coluna reversa
   justify-content: space-evenly;
+  align-items: center;
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  p {
+    width: 90%;
+    font-size: 1.5rem;
+    font-weight: bold; //negrito
+    font-weight: lighter; //leve
+    font-weight: 400; //De 100 a 900, contando de 100 em 100, quanto maior, mais forte fica
+    text-align: justify;  //Texto justificado
+    text-align: left; //Texto alinhado a esquerda
+    text-align: right; //Texto alinhado a direita
+    text-align: center; //Texto centralizado
+  }
+}
+
+
+.containerLogistica{
+border: solid blue;
+width: 40%;
+height: 70vh;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
 }
